@@ -29,7 +29,8 @@ webmaster_verifications:
   alexa: 
   yandex: 
   baidu: 
-lang: en_US
+default_lang: 'ko'
+exclude_from_localization: ['javascript', 'images', 'css']
 
 #Highlighter
 kramdown:
