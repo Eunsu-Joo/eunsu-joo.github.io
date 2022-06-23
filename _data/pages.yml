@@ -1,0 +1,3 @@
+pages:
+  - {name: 'Profile', url: 'profile.html'}
+  - {name: 'Album', url: 'album.html'}

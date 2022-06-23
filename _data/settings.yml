@@ -1,0 +1,38 @@
+#Google Analytics
+analytics-id: #leave blank to not use Analytics
+
+#Subtitle
+subtitle:
+  active: true
+  text: 개발n년차(지금은 1년차) 은수 | Julie 의 개발블로그
+
+#Nav 
+nav:
+  pages:
+    active: true
+  social:
+    active: true
+
+#Featured images in homepage
+featured-img:
+  active: true
+
+#Show categories at the end of posts
+categories:
+  active: true
+
+#Show date and read time under the post title
+date-under-post:
+  active: true
+
+#Use MathJAX
+mathjax:
+  active: true
+
+#Show related posts based on categories
+related-posts:
+  active: true
+  title: "관련게시물"
+
+#Comments
+comments: true

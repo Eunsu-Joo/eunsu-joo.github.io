@@ -1,0 +1,24 @@
+.related{
+    h4{
+      font-weight: 700;
+        text-decoration: underline;
+        margin-bottom: 16px;
+    }
+    h5{
+        margin-top: 0px;
+        text-align: left;
+        font-size: 1rem;
+    }
+    .related-posts{
+        opacity: 0.8;
+        margin-right: 25px;
+        margin-bottom: 16px;
+    }
+    .related-posts:hover{
+        opacity: 1;
+
+    }
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin:0 auto;
+}
