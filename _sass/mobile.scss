@@ -36,16 +36,14 @@
         }
     }
     #post-title{
-        text-align: center;
+        width: 100%;
     }
 
     p{
         font-size: 1rem;
         word-break: keep-all;
     }
-    .post-info{
-        text-align: center;
-    }
+
     ::-webkit-scrollbar {
         height: 3px;
       }
@@ -56,5 +54,19 @@
     pre .highlight{
         padding-left: 8px;
         padding-right: 0px;
+    }
+    .post-container{
+        flex-direction: column;
+    }
+    .post{
+        width: 100%;
+    }
+    .featured-img-container{
+        img{
+            height: 50vw;
+        }
+    }
+    .archive-group{
+        width: 100%;
     }
 }
