@@ -1,7 +1,7 @@
 # Site settings
 title: 은수로그
 main_title: WELCOME | 은수로그
-description: "Yet Another Minimal Theme"
+description: "개발자 개발자은수 은수로그 칸둥 은수 Julie"
 url:  "https://eunsu-joo.github.io" # Actual base url of the website
 baseurl: ""           # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
 author:
@@ -29,9 +29,8 @@ webmaster_verifications:
   alexa: 
   yandex: 
   baidu: 
-default_lang: 'ko'
-exclude_from_localization: ['javascript', 'images', 'css']
-
+languages: ["en", "ko-KR"]
+default_lang: "ko-KR"
 #Highlighter
 kramdown:
   input:          GFM
