@@ -3,14 +3,22 @@
         overflow-y: auto;
     }
     .container {
-        width: 88vw;
+        width: 85vw;
     }
     #header{
-        width: 80vw;
+        width: 90vw;
+        .subTitle{
+            line-height: 1.5;
+            span{
+                display: block;
+
+            }
+        }
         #subheader{
             display: flex;
             flex-flow: column wrap;
             align-items: center;
+                padding: 18px 0;
             .pages{
                 margin-top: 12px;
                 order: 2;
@@ -32,7 +40,8 @@
     }
 
     p{
-        font-size: 1.2rem;
+        font-size: 1rem;
+        word-break: keep-all;
     }
     .post-info{
         text-align: center;

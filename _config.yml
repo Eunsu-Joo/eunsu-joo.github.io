@@ -18,7 +18,7 @@ paginate: 3
 paginate_path: "/page:num/"
 
 #SEO
-logo: /assets/img/logo.jpg
+logo: /assets/img/logo.svg
 social:
   links: #List your social links here
     - https://www.github.com/eunsu-joo

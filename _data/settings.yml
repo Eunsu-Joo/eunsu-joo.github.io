@@ -4,7 +4,8 @@ analytics-id: #leave blank to not use Analytics
 #Subtitle
 subtitle:
   active: true
-  text: 개발n년차(지금은 1년차) 은수 | Julie 의 개발블로그
+  text1: 개발n년차(지금은 1년차) 
+  text2 : 은수 | Julie 의 개발블로그
 
 #Nav 
 nav:

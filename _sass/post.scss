@@ -111,3 +111,13 @@ article::after{
 .post-desc{
   line-height: 1.35;
 }
+.album-container{
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  p{
+    margin: 0;
+  }
+}

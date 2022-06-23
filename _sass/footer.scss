@@ -1,7 +1,12 @@
 .footer{
+    padding-top: 40px;
     p{
         text-align: center;
         font-size: 0.85rem;
+        word-break: keep-all;
+        margin: 0;
+        line-height: 1.35;
+
     }
     a{
         text-decoration: none;

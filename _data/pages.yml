@@ -1,3 +1,5 @@
 pages:
+  - {name: 'Blogs', url: 'index.html'}
+  - {name: 'Categories', url: 'categories/index.html'}
   - {name: 'Profile', url: 'profile.html'}
   - {name: 'Album', url: 'album.html'}
