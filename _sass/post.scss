@@ -23,10 +23,15 @@ img{
 }
 
 .post-container{
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
+}
+.article-container{
+  *{
+    line-height: 1.6;
+  }
 }
 .archive-container{
   display: flex;
@@ -132,4 +137,7 @@ article::after{
   p{
     margin: 0;
   }
+}
+.utterances{
+  max-width: 100% !important;
 }
