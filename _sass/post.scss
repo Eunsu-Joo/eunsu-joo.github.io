@@ -9,7 +9,10 @@ li.post{
     padding-bottom: 1rem;
   width: 48%;
 }
-
+.post-info{
+  font-size: 0.95rem;
+  color: $base;
+}
 
 
 img{
@@ -42,17 +45,21 @@ img{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 16px;
+  width: 80%;
+  margin: 16px auto 0 auto;
+  .archive-cat{
+    font-size: 1.2rem;
+  }
 }
 .archive-group{
-  width: 30%;
+  width: 50%;
 }
 //Archive
 .archive-link{
   text-decoration: none;
   color: black;
   margin-bottom: 8px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   display: inline-block;
   padding-left: 0.5rem;
 }
@@ -75,6 +82,7 @@ img{
     text-align: center;
     margin-bottom: 32px;
   }
+
   img{
     height: 380px;
     margin-bottom: 36px;
@@ -92,6 +100,9 @@ img{
       opacity: 0.8;
     }
   }
+}
+#post-title{
+  font-size: 1.4rem;
 }
 .categories{
     p{
