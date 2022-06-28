@@ -20,7 +20,12 @@ code{
 pre.lineo{
   color: white;
 }
-
+code.highlighter-rouge{
+  background-color: #ebebeb;
+  padding: 0.1em 0.5em;
+  border-radius: 4px;
+  font-size: 1rem;
+}
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {

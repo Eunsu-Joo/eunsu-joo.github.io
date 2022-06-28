@@ -32,7 +32,10 @@ img{
 }
 .article-container{
   *{
-    line-height: 1.6;
+    line-height: 1.5;
+  }
+  p{
+    margin: 0.65em 0;
   }
 }
 .archive-container{
