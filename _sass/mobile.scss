@@ -1,9 +1,11 @@
 @media (max-width: 999px){
     html{
         overflow-y: auto;
+        font-size: 14px;
     }
     .container {
         width: 85vw;
+
     }
     #header{
         width: 90vw;
@@ -57,6 +59,7 @@
     }
     .post-container{
         flex-direction: column;
+
     }
     .post{
         width: 100%;
@@ -68,5 +71,14 @@
     }
     .archive-group{
         width: 100%;
+    }
+    .article-container{
+        blockquote{
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            word-break: keep-all;
+        }
     }
 }
