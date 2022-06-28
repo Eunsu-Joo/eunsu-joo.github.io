@@ -1,3 +1,5 @@
+$base: #a2a2a2;
+$light-grey: #ebebeb;
 li.post{
     display: block;
     padding-top: 1rem;
@@ -137,7 +139,4 @@ article::after{
   p{
     margin: 0;
   }
-}
-.utterances{
-  max-width: 100% !important;
 }
