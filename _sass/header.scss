@@ -16,20 +16,24 @@ header{
     margin-right: auto;
     width: 850px;
     overflow: hidden;
-  
+
     #site_title{
         text-align: center;
         color: black;
         padding-bottom: 36px;
         border-bottom: 1px solid #d5d5d5;
+        #header-logo{
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+        }
         a{
             text-decoration: none;
         }
         h1{
-
+            margin-top: 0;
         }
         h2{
-
             font-size: 1.2rem;
         }
     }
