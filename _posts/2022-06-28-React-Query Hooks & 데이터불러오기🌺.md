@@ -1,5 +1,5 @@
 ---
-title: "간단한 쇼핑몰 만들기- intro2-1\U0001F4AA\U0001F3FB"
+title: "React-Query Hooks & 데이터불러오기\U0001F33A"
 layout: post
 categories:
 - 간단한쇼핑몰
@@ -16,7 +16,7 @@ customexcerpt: 간단한 쇼핑몰 |  React-query / Hooks / Examples
 
 더미데이터는 `jsonplaceholder`를 사용해보자. 
 
-# React-query의 세가지 컨셉
+##  React-query의 세가지 컨셉
 **✔ Queries**
 **✔ Mutations**
 **✔ Query Invalidation**

@@ -1,34 +1,40 @@
 ---
 ---
 
-pre{
-   overflow-x: auto;
+pre {
+  overflow-x: auto;
 }
-code{
+code {
   font-family: Consolas, sans-serif;
   font-weight: 400;
 }
-.highlight{
+.highlight {
   font-size: 16px;
   border-radius: 5px;
   padding: 1px 10px;
   overflow-x: auto;
   // System font stack for code
-
 }
 
-pre.lineo{
+pre.lineo {
   color: white;
 }
-code.highlighter-rouge{
+code.highlighter-rouge {
   background-color: #ebebeb;
   padding: 0.1em 0.5em;
   border-radius: 4px;
   font-size: 1rem;
 }
-.highlight table td { padding: 5px; }
-.highlight table pre { margin: 0; }
-.highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
+.highlight table td {
+  padding: 5px;
+}
+.highlight table pre {
+  margin: 0;
+}
+.highlight .c,
+.highlight .ch,
+.highlight .cd,
+.highlight .cpf {
   color: #75715e;
   font-style: italic;
 }
@@ -86,7 +92,8 @@ code.highlighter-rouge{
 .highlight .gu {
   color: #aaaaaa;
 }
-.highlight .k, .highlight .kv {
+.highlight .k,
+.highlight .kv {
   color: #66d9ef;
   font-weight: bold;
 }
@@ -137,7 +144,9 @@ code.highlighter-rouge{
 .highlight .mo {
   color: #ae81ff;
 }
-.highlight .m, .highlight .mb, .highlight .mx {
+.highlight .m,
+.highlight .mb,
+.highlight .mx {
   color: #ae81ff;
 }
 .highlight .se {
@@ -173,7 +182,9 @@ code.highlighter-rouge{
 .highlight .ss {
   color: #e6db74;
 }
-.highlight .s, .highlight .sa, .highlight .dl {
+.highlight .s,
+.highlight .sa,
+.highlight .dl {
   color: #e6db74;
 }
 .highlight .na {
@@ -191,7 +202,8 @@ code.highlighter-rouge{
   color: #a6e22e;
   font-weight: bold;
 }
-.highlight .nf, .highlight .fm {
+.highlight .nf,
+.highlight .fm {
   color: #a6e22e;
   font-weight: bold;
 }
@@ -219,7 +231,8 @@ code.highlighter-rouge{
 .highlight .vi {
   color: #f8f8f2;
 }
-.highlight .nv, .highlight .vm {
+.highlight .nv,
+.highlight .vm {
   color: #f8f8f2;
 }
 .highlight .w {
@@ -234,14 +247,16 @@ code.highlighter-rouge{
 }
 .highlight {
   color: #f8f8f2;
-  background-color: #49483e;
+  background-color: #201f1d;
 }
 
-figure.highlight{
+figure.highlight {
   position: relative;
+  margin: 0;
 }
 
-figure.highlight pre code[data-lang]::before, div.highlight pre code[data-lang]::before{
+figure.highlight pre code[data-lang]::before,
+div.highlight pre code[data-lang]::before {
   content: attr(data-lang);
   text-transform: uppercase;
   position: absolute;
