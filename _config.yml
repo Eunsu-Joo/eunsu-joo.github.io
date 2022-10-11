@@ -48,3 +48,15 @@ kramdown:
 sass:
   style: compressed
   sourcemap: never
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files of a type
+      type: "posts"
+    values:
+      layout: "post"
+      image: ""
+      customexcerpt: ""
+      categories:
+        - ""
+      description: ""

@@ -40,6 +40,42 @@ img{
   p{
     margin: 0.65em 0;
   }
+  table{
+    width: 80%;
+    margin: 0 auto 1.5em auto;
+    border-bottom:1px solid #e0e0e0 ;
+    border-collapse: collapse;
+  th{
+    background-color: #e0e0e0;
+    border-right: 1px solid #fff;
+    &:nth-last-child(1){
+      text-align: center !important;
+      border-right: 0;
+    }
+  }
+    tr{
+      td{
+        &:nth-last-child(1){
+          text-align: center !important;
+        }
+        &:nth-child(1){
+          border-left:1px solid #e0e0e0 ;
+        }
+      }
+      &:not(&:nth-last-child(1)){
+       td{
+         border-bottom:1px solid #e0e0e0 ;
+       }
+      }
+    }
+    td{
+      border-right:1px solid #e0e0e0 ;
+    }
+    *{
+      padding: 0.5em 0.7em;
+    }
+
+  }
 }
 .archive-container{
   display: flex;
