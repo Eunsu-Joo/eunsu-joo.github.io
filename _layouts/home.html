@@ -31,8 +31,8 @@ title: Home
         {% endif %}
 
         <p class="post-desc">
-            {% if post.customexcerpt %}
-            {{post.customexcerpt | strip_html | truncatewords:50}}
+            {% if post.description %}
+            {{post.description | strip_html | truncatewords:50}}
             {% else %}
             {{ post.content | strip_html | truncatewords:50 }}
             {% endif %}

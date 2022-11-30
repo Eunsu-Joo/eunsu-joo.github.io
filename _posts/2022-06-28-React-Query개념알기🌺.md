@@ -2,7 +2,6 @@
 title: "React-Query개념알기\U0001F33A"
 layout: post
 image: https://velog.velcdn.com/images/soonmac/post/45b191a2-e23a-48b9-aba9-62a6362970f6/image.jpg
-customexcerpt: "간단한 쇼핑몰-intro | react-query\U0001F33A"
 categories:
 - 간단한쇼핑몰
 - react-query

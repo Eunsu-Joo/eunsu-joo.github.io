@@ -56,7 +56,5 @@ defaults:
     values:
       layout: "post"
       image: ""
-      customexcerpt: ""
-      categories:
-        - ""
+      categories: ""
       description: ""
