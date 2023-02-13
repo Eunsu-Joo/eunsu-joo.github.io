@@ -19,18 +19,6 @@ paginate_path: "/page:num/"
 
 #SEO
 logo: /assets/img/logo.svg
-social:
-  links: #List your social links here
-    - https://www.github.com/eunsu-joo
-    - https://instagram.com/lifeisganzi
-webmaster_verifications:
-  google: 
-  bing: 
-  alexa: 
-  yandex: 
-  baidu: 
-languages: ["en", "ko-KR"]
-default_lang: "ko-KR"
 #Highlighter
 kramdown:
   input:          GFM
