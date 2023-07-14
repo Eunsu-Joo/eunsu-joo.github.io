@@ -21,16 +21,10 @@ paginate_path: "/page:num/"
 logo: /assets/img/logo.svg
 #Highlighter
 kramdown:
-  input:          GFM
   syntax_highlighter: rouge
-
-  syntax_highlighter_opts:
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
-      start_line: 1
+  input: GFM
+  auto_ids:       true
+  toc_levels:     1..3
 
 #Sass
 sass:
